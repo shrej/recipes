@@ -1,0 +1,54 @@
+{
+  "name": "backend",
+  "description": "food planner backend server",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "Shreyans Jain",
+    "email": "shrej3@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/",
+    "config": "config/"
+  },
+  "engines": {
+    "node": "^11.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "test": "yarn run eslint && NODE_ENV= yarn run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "dev": "nodemon src/",
+    "start": "nodemon src/",
+    "mocha": "mocha test/ --recursive --exit"
+  },
+  "dependencies": {
+    "@feathersjs/configuration": "^2.0.4",
+    "@feathersjs/errors": "^3.3.4",
+    "@feathersjs/express": "^1.2.7",
+    "@feathersjs/feathers": "^3.2.3",
+    "@feathersjs/socketio": "^3.2.7",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "feathers-mongoose": "^7.0.0",
+    "helmet": "^3.15.0",
+    "mongodb-core": "^3.1.11",
+    "mongoose": "^5.3.12",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
