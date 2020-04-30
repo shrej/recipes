@@ -5,7 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.11",
     "nutrition-label-jquery-plugin": "^8.0.14",
     "react": "^16.7.0",
